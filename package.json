@@ -4,6 +4,7 @@
   "description": "A boilerplate for API Blueprint",
   "scripts": {
     "start": "aglio -i doc/apiblueprint-boilerplate.apib -s",
+    "serve": "drakov -f doc/apiblueprint-boilerplate.apib -p 3001",
     "prebuild": "mkdirp dist",
     "build": "aglio -i doc/apiblueprint-boilerplate.apib -o dist/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "aglio": "^2.3.0",
+    "drakov": "^1.0.4",
     "mkdirp": "^0.5.1"
   }
 }

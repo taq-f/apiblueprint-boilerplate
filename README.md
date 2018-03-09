@@ -14,6 +14,8 @@ $ npm start
 $ npm run serve
 ```
 
+To watch for changes in the files, run with `--watch` option (`npm run serve -- --watch`).
+
 ## generating HTML
 
 ```text

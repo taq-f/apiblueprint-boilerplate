@@ -1,0 +1,18 @@
+{
+  "name": "apiblueprint-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for API Blueprint",
+  "scripts": {
+    "start": "aglio -i doc/apiblueprint-boilerplate.apib -s",
+    "prebuild": "mkdirp dist",
+    "build": "aglio -i doc/apiblueprint-boilerplate.apib -o dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aglio": "^2.3.0",
+    "mkdirp": "^0.5.1"
+  }
+}
